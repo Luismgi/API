@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <title>Buscador de Series y Películas</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+   <header>
+    <h1>🎬 Series y Películas</h1>
+    <p>Busca tu serie o película favorita con TVmaze API</p>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <input type="text" id="searchInput" placeholder="Buscar...">
+      <button id="searchBtn">Buscar</button>
+    </section>
+
+    <section id="results" class="results-section"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Buscador de Series</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/app.js"></script> 
+</body>
+</html>
